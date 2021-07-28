@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+.footer {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 3px;
+  height: 300px;
+  width: 100%;
+  background: black;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.footer li {
+  list-style: none;
+  text-align: left;
+}
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  margin-right: 50px;
+}
+.list-footer {
+  margin: 0;
+  padding: 0;
+}

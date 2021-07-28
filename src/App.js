@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./navbar";
+import Footer from "./Footer";
 import Card from "./Card";
 
 function App() {
@@ -18,11 +19,14 @@ function App() {
           </div>
         </div>
       </div>
+      {/* <div className="sup-triangle"></div> */}
       <div className="card-container">
         <Card />
         <Card />
         <Card />
       </div>
+      <div className="inf-triangle"></div>
+      <Footer />
     </div>
   );
 }
