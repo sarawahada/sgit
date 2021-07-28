@@ -12,7 +12,7 @@ export default function Card() {
       />
       <div className="mask-hover">
         <div className="card-content">
-          <h1>Card</h1>
+          <h1>Ce que nous offrons</h1>
           <ul>
             <li>DESIGN</li>
             <li>ELEGANCE</li>

@@ -8,13 +8,13 @@
   color: white;
   width: 100%;
 }
-ul {
+.navbar ul {
   display: flex;
   margin: 0;
   padding: 0;
   height: 100%;
 }
-li {
+.navbar li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,7 @@ li {
   transition: 0.4s ease-in;
   cursor: pointer;
 }
-li:hover {
+.navbar li:hover {
   background-color: #72efdd;
 }
 .dropdown ul {
