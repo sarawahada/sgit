@@ -11,6 +11,7 @@ function App() {
         <Route exact path="/" component={Homepage} />
         <Route exact path="/contact" component={() => <h1>contact</h1>} />
         <Route exact path="/about" component={() => <h1>about</h1>} />
+        <Route exact path="/logiciels" component={() => <h1>logiciels</h1>} />
       </Switch>
     </div>
   );

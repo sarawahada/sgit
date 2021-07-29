@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./navbar.css";
-
+//Router, Switch, Route,
 function Navbar(props) {
   const [click, setClick] = useState();
   const handleClick = () => {
@@ -27,7 +27,7 @@ function Navbar(props) {
         </li>
 
         <li>
-          <Link to="/about">INFORMATIONS</Link>
+          <Link to="/logiciels">INFORMATIONS</Link>
         </li>
         <li>
           <Link to="/about">A PROPOS</Link>

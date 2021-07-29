@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 import Card from "./Card";
+import { Link } from "react-router-dom";
 import "./Homepage.css";
 
 export default function Homepage() {
@@ -39,18 +40,24 @@ export default function Homepage() {
       </div>
       <div className="flex-card-container">
         <div className="card-container2">
-          <Card
-            description="Logiciel de comptabilite"
-            url="https://images.ctfassets.net/s600jj41gsex/U4IZCLq00wIhd4eQe9yd6/d2895fc649d487c792bf2e6864a80277/pexels-photo-574071-1.jpeg?w=768&h=509&q=50&fm=webp&fit=scale"
-          />
-          <Card
-            description="logiciels de finances"
-            url="https://miro.medium.com/max/2000/1*D4Zub-vsQsuAOKm9rEd-lg.jpeg"
-          />
-          <Card
-            description="societe civile"
-            url="https://www.ziprecruiter.com/blog/static/wp-content/uploads/2017/06/28155623/1071652068_Software-Developer.jpg"
-          />
+          <Link to="/logiciels">
+            <Card
+              description="Logiciel de comptabilite"
+              url="https://images.ctfassets.net/s600jj41gsex/U4IZCLq00wIhd4eQe9yd6/d2895fc649d487c792bf2e6864a80277/pexels-photo-574071-1.jpeg?w=768&h=509&q=50&fm=webp&fit=scale"
+            />
+          </Link>
+          <Link to="/logiciels">
+            <Card
+              description="logiciels de finances"
+              url="https://miro.medium.com/max/2000/1*D4Zub-vsQsuAOKm9rEd-lg.jpeg"
+            />
+          </Link>
+          <Link to="/logiciels">
+            <Card
+              description="societe civile"
+              url="https://www.ziprecruiter.com/blog/static/wp-content/uploads/2017/06/28155623/1071652068_Software-Developer.jpg"
+            />
+          </Link>
         </div>
       </div>
       <Footer />
