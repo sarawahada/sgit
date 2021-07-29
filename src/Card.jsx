@@ -1,23 +1,23 @@
 import React from "react";
 import "./Card.css";
-export default function Card() {
+export default function Card(props) {
   return (
     <div className="Card">
       <div
         className="background-img"
         style={{
-          backgroundImage:
-            "url('https://images.ctfassets.net/s600jj41gsex/U4IZCLq00wIhd4eQe9yd6/d2895fc649d487c792bf2e6864a80277/pexels-photo-574071-1.jpeg?w=768&h=509&q=50&fm=webp&fit=scale')",
+          backgroundImage: `url('${props.url}')`,
         }}
       />
       <div className="mask-hover">
         <div className="card-content">
-          <h1>Ce que nous offrons</h1>
-          <ul>
+          <h1>{props.description.toUpperCase()}</h1>
+          <p></p>
+          {/* <ul>
             <li>DESIGN</li>
             <li>ELEGANCE</li>
             <li>SIMPLICITY</li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>

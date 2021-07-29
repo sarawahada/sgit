@@ -2,13 +2,11 @@
 .Card {
   min-width: 500px;
   height: 500px;
-  border: 5px solid cyan;
-  /* background-color: darkblue; */
-  /* width: 400px; */
+  border: 5px solid #9bf6ff;
   display: flex;
   margin: 20px;
   overflow: hidden;
-  color: white;
+  color: #ffff;
   font-family: "Roboto Slab", serif;
   font-weight: bold;
 }
@@ -67,7 +65,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
-  background-color: #048ba8;
-  opacity: 0.7;
+  /* border: 3px solid #058d99; */
+  background-color: rgba(4, 139, 168, 0.7);
+}
+.Card h1 {
+  text-align: center;
 }

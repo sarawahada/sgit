@@ -14,7 +14,8 @@ function Navbar(props) {
       </h1>
       <ul>
         <li onClick={handleClick}>
-          ACCEUIL
+          <Link to="/">ACCEUIL</Link>
+
           {click ? (
             <ul>
               <li>item1</li>
@@ -25,9 +26,15 @@ function Navbar(props) {
           )}
         </li>
 
-        <li>INFORMATIONS</li>
-        <li>A PROPOS</li>
-        <li>CONTACT</li>
+        <li>
+          <Link to="/about">INFORMATIONS</Link>
+        </li>
+        <li>
+          <Link to="/about">A PROPOS</Link>
+        </li>
+        <li>
+          <Link to="/contact">CONTACT</Link>
+        </li>
       </ul>
     </div>
   );
