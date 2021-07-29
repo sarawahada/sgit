@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
 .footer {
   font-family: "Playfair Display", serif;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   height: 300px;
   width: 100%;
   background: black;
@@ -20,6 +20,8 @@
   justify-content: flex-start;
   text-align: left;
   margin-right: 50px;
+  padding-left: 30px;
+  border-left: 1px solid white;
 }
 .list-footer {
   margin: 0;
