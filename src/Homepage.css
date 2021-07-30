@@ -84,10 +84,12 @@
   align-items: center;
 }
 .section-title h2 {
-  /* border-top: 5px solid black;
-  border-bottom: 5px solid black; */
+  border-top: 5px solid cyan;
+  border-bottom: 5px solid cyan;
+  padding: 20px 0;
   color: #fff;
-  /* background-color: cyan; */
+  text-shadow: 3px 3px #000;
+  background-color: #0077b6;
   text-align: center;
   width: 100%;
 

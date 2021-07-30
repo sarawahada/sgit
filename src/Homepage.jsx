@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import Card from "./Card";
 import { Link } from "react-router-dom";
+import SimpleMap from "./GoogleMaps";
 import "./Homepage.css";
 
 export default function Homepage() {
@@ -19,6 +20,7 @@ export default function Homepage() {
           </div>
         </div>
       </div>
+    <SimpleMap zoom={18} lat={36.850251} lng={10.157386} /> 
       {/* <div className="sup-triangle"></div> */}
       <div className="card-container">
         <Card
