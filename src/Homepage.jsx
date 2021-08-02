@@ -20,8 +20,6 @@ export default function Homepage() {
           </div>
         </div>
       </div>
-    <SimpleMap zoom={18} lat={36.850251} lng={10.157386} /> 
-      {/* <div className="sup-triangle"></div> */}
       <div className="card-container">
         <Card
           description="Fortes Valeurs Ajoutees"
